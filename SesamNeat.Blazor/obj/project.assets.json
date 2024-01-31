@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "System.Device.Gpio/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Device.Gpio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Device.Gpio.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/System.Device.Gpio.targets": {}
+        }
+      },
+      "CC1101.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "System.Device.Gpio": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CC1101.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CC1101.NET.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "System.Device.Gpio/3.1.0": {
+      "sha512": "4Jw7+lTwdU63zsaD9a6H47YC/LK6lGhi3SKBGdf1jV0ySj22NJkglQ35dBZWbtwiXOzbBn3Gl8XzIcpv1pai3Q==",
+      "type": "package",
+      "path": "system.device.gpio/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net5.0/System.Device.Gpio.targets",
+        "lib/net6.0-windows10.0.17763/System.Device.Gpio.dll",
+        "lib/net6.0-windows10.0.17763/System.Device.Gpio.xml",
+        "lib/net6.0/System.Device.Gpio.dll",
+        "lib/net6.0/System.Device.Gpio.xml",
+        "lib/netstandard2.0/System.Device.Gpio.dll",
+        "lib/netstandard2.0/System.Device.Gpio.xml",
+        "system.device.gpio.3.1.0.nupkg.sha512",
+        "system.device.gpio.nuspec"
+      ]
+    },
+    "CC1101.NET/1.0.0": {
+      "type": "project",
+      "path": "../CC1101.NET/CC1101.NET.csproj",
+      "msbuildProject": "../CC1101.NET/CC1101.NET.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CC1101.NET >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/chris/.nuget/packages/": {}
@@ -31,7 +89,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/chris/Programming/SesameNeat/CC1101.NET/CC1101.NET.csproj": {
+              "projectPath": "/home/chris/Programming/SesameNeat/CC1101.NET/CC1101.NET.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

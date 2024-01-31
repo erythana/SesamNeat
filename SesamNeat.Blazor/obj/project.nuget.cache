@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rpcPGbHD2BDSymtLpQsskYVHeb+y0w3qggvZalnOFkI1hFGiqW8oH6zh6pVtLb8Fc6XUgk0HqASX3kh3GWK09w==",
+  "dgSpecHash": "GL/7ED+Apb0OKQWmMedBDLGF66AUFB5Qe2p8gBj6Sg5txV9S4+WHi+/E8/q1WtD1c7BxouATmtMltNcp224+8w==",
   "success": true,
   "projectFilePath": "/home/chris/Programming/SesameNeat/SesamNeat.Blazor/SesamNeat.Blazor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/chris/.nuget/packages/system.device.gpio/3.1.0/system.device.gpio.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
