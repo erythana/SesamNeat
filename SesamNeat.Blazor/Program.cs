@@ -1,3 +1,5 @@
+using CC1101.NET;
+using CC1101.NET.Interfaces;
 using SesamNeat.Blazor.Components;
 
 namespace SesamNeat.Blazor;
@@ -7,9 +9,12 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        var connectionConfiguration = new CC1101Controller(new ConnectionConfiguration());
 
         // Add services to the container.
-        builder.Services.AddRazorComponents()
+        builder.Services
+            .AddSingleton<ICC1101>(_ => connectionConfiguration.Initialize(Application.InitialDeviceAddress))
+            .AddRazorComponents()
             .AddInteractiveServerComponents();
 
         var app = builder.Build();

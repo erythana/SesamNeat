@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/DeviceAddress.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9EZXZpY2VBZGRyZXNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/PackageMonitor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWNrYWdlTW9uaXRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
