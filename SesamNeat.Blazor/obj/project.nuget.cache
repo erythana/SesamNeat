@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UoJSZclTDgxDbCWwCMl9qa5OO9OOh7+hayhnyRilo2+Kdk7F9nL99NT+xGwA8Tll4mRQm08l6OnnblGXv0/JyA==",
+  "dgSpecHash": "BrQ3igwbdzP4DreGz+tvD6BHV9TQAxUSnFaOSOi22lnhJgUUnx4LSkWF7hG+pK8PYiiAUB2/aqAPwRvNg0us6g==",
   "success": true,
   "projectFilePath": "/home/chris/Programming/SesameNeat/SesamNeat.Blazor/SesamNeat.Blazor.csproj",
   "expectedPackageFiles": [
