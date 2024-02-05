@@ -1,10 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "GL/7ED+Apb0OKQWmMedBDLGF66AUFB5Qe2p8gBj6Sg5txV9S4+WHi+/E8/q1WtD1c7BxouATmtMltNcp224+8w==",
+  "dgSpecHash": "UoJSZclTDgxDbCWwCMl9qa5OO9OOh7+hayhnyRilo2+Kdk7F9nL99NT+xGwA8Tll4mRQm08l6OnnblGXv0/JyA==",
   "success": true,
   "projectFilePath": "/home/chris/Programming/SesameNeat/SesamNeat.Blazor/SesamNeat.Blazor.csproj",
   "expectedPackageFiles": [
-    "/home/chris/.nuget/packages/system.device.gpio/3.1.0/system.device.gpio.3.1.0.nupkg.sha512"
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.authorization/8.0.1/microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.components/8.0.1/microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.components.analyzers/8.0.1/microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.components.forms/8.0.1/microsoft.aspnetcore.components.forms.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.components.web/8.0.1/microsoft.aspnetcore.components.web.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.metadata/8.0.1/microsoft.aspnetcore.metadata.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.extensions.options/8.0.1/microsoft.extensions.options.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.jsinterop/8.0.1/microsoft.jsinterop.8.0.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/system.device.gpio/3.1.0/system.device.gpio.3.1.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

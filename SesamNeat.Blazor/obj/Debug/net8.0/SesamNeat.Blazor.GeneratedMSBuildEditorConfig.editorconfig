@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9EZXZpY2VBZGRyZXNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/IconButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JY29uQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/PackageMonitor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWNrYWdlTW9uaXRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/ShutdownButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaHV0ZG93bkJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/chris/Programming/SesameNeat/SesamNeat.Blazor/Components/_Imports.razor]

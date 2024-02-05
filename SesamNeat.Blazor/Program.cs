@@ -1,6 +1,8 @@
+using RTLSDRWaterfall.Blazor;
 using CC1101.NET;
 using CC1101.NET.Interfaces;
 using SesamNeat.Blazor.Components;
+using SesamNeat.Blazor.Helper;
 
 namespace SesamNeat.Blazor;
 
@@ -13,7 +15,9 @@ public class Program
 
         // Add services to the container.
         builder.Services
-            .AddSingleton<ICC1101>(_ => connectionConfiguration.Initialize(Application.InitialDeviceAddress))
+            // .AddSingleton<ICC1101>(_ => connectionConfiguration.Initialize(Application.InitialDeviceAddress))
+            .AddScoped(typeof(ShutdownHelper))
+            .AddScoped(typeof(WaterfallInterop))
             .AddRazorComponents()
             .AddInteractiveServerComponents();
 

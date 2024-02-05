@@ -1,18 +1,45 @@
 @inherits SesamNeat.Blazor.Components.Base.BaseComponent
+@rendermode InteractiveServer
 
 <div class="rf-commands @Classes" @attributes="Attributes">
     <h3>RFCommands</h3>
     <div>
+        <IconButton FAIcon="@_captureButtonIcon" Text="@_captureButtonText" @onclick="ToggleCapture" class="btn-dark" />
         <button class="btn btn-dark">test</button>
         <button class="btn btn-dark">test2</button>
         <button class="btn btn-dark">test3</button>
         <div class="d-inline float-end">
-            <input type="text"/>
+            <input type="text" class="form-control form-control-sm"/>
             <button class="btn btn-dark">Send payload</button>
         </div>
     </div>
 </div>
 
 @code {
+    private bool _isCapturing;
+    private string _captureButtonIcon;
+    private string _captureButtonText;
+
+    public RFCommands()
+    {
+        SetCaptureButtonText(false);
+    }
+
+    private void ToggleCapture()
+    {
+        _isCapturing = !_isCapturing;
+        SetCaptureButtonText(_isCapturing);
+    }
+
+    private void SetCaptureButtonText(bool isCapturing)
+    {
+        _captureButtonIcon = "fa-" + (isCapturing
+            ? "stop"
+            : "play");
+        _captureButtonText = (isCapturing
+            ? "Stop "
+            : "Start ") + "capturing";
+    }
+
 
 }

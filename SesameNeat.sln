@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC1101.NET", "CC1101.NET\CC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SesamNeat.Blazor", "SesamNeat.Blazor\SesamNeat.Blazor.csproj", "{C19633CC-7AA3-4FBD-9452-D4CB8CA5F5C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTLSDRWaterfall.Blazor", "RTLSDRWaterfall.Blazor\RTLSDRWaterfall.Blazor.csproj", "{D03BEF6A-616E-4C6B-9FC6-11A26E340DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C19633CC-7AA3-4FBD-9452-D4CB8CA5F5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C19633CC-7AA3-4FBD-9452-D4CB8CA5F5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C19633CC-7AA3-4FBD-9452-D4CB8CA5F5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03BEF6A-616E-4C6B-9FC6-11A26E340DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03BEF6A-616E-4C6B-9FC6-11A26E340DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03BEF6A-616E-4C6B-9FC6-11A26E340DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03BEF6A-616E-4C6B-9FC6-11A26E340DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

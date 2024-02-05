@@ -1,0 +1,10 @@
+@using SesamNeat.Blazor.Helper
+@rendermode InteractiveServer
+@inherits SesamNeat.Blazor.Components.Base.BaseComponent
+@inject ShutdownHelper ShutdownHelper
+
+<IconButton FAIcon="fa-power-off" class="@Classes" @attributes="Attributes" Text="Shutdown RPi" @onclick="ShutdownRaspberryPi" />
+
+@code {
+    private void ShutdownRaspberryPi() => ShutdownHelper.Shutdown();
+}

@@ -1,10 +1,12 @@
 @using CC1101.NET.Interfaces
+@* @inject ICC1101 cc1101 *@
+
 @inherits SesamNeat.Blazor.Components.Base.BaseComponent
 
 @rendermode InteractiveServer
 
-<div class="ms-auto ">
-    <input @onchange="OnDeviceAddressChanged" id="txtDeviceAdress" class="form-control form-control-sm @(_deviceAddressError ? "is-invalid" : string.Empty)" type="text" placeholder="Device-Address (0-255)">
+<div class="@Classes" @attributes="Attributes">
+    <input @onchange="OnDeviceAddressChanged" id="txtDeviceAddress" class="form-control form-control-sm @(_deviceAddressError ? "is-invalid" : string.Empty)" type="text" placeholder="Device address (0-255)" value="@_address">
     <div class="invalid-feedback">
         Please provide a valid device address.
     </div>
@@ -14,7 +16,6 @@
 {
     private byte _address = Application.InitialDeviceAddress;
     private bool _deviceAddressError;
-    // [Inject] private ICC1101 CC1101 { get; set; }
 
     private void OnDeviceAddressChanged(ChangeEventArgs args)
     {
@@ -24,7 +25,8 @@
             return;
         }
 
+        _address = address;
         _deviceAddressError = false;
-        //cc1101.setadressblabla;
+        // cc1101.DeviceAddress = _address;
     }
 }
