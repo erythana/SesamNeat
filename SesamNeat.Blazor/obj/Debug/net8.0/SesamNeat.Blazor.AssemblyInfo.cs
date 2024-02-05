@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SesamNeat.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53e0d833b8d5e7d347694a3ad671f61f8bb5864")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7e37e1e2bf8fac01d214ccfc5c69a4ea9e3df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SesamNeat.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SesamNeat.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
