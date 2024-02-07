@@ -1,4 +1,3 @@
-using RTLSDRWaterfall.Blazor;
 using CC1101.NET;
 using CC1101.NET.Interfaces;
 using SesamNeat.Blazor.Components;
@@ -17,7 +16,6 @@ public class Program
         builder.Services
             // .AddSingleton<ICC1101>(_ => connectionConfiguration.Initialize(Application.InitialDeviceAddress))
             .AddScoped(typeof(ShutdownHelper))
-            .AddScoped(typeof(WaterfallInterop))
             .AddRazorComponents()
             .AddInteractiveServerComponents();
 

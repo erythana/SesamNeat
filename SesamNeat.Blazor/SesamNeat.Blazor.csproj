@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\RTLSDRWaterfall.Blazor\RTLSDRWaterfall.Blazor.csproj" />
       <ProjectReference Include="..\CC1101.NET\CC1101.NET.csproj" />
     </ItemGroup>
 
